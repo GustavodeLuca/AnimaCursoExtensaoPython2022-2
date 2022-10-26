@@ -1,28 +1,14 @@
-# Meu primeiro projeto Python!!!
-#
-# print() = comando de saida
-print("Alo mundo!")
+# comando input(): quero permitir que 
+# o usuário digite algo...
+nome = input("Digite seu nome: ")
+#pede a idade para o usuário "Qual sua idade?"
+idade = int(input("Digite sua idade: "))
 
-# Quando quiser guardar uma String! (frase)
-nome = "Gustavo de Luca"
-# Quando quiser guardar um número inteiro
-idade = 20
+#comando de saída..exibir na tela
+print(f"Boa noite, seu nome é {nome}")
+#exiba "Sua idade é ..."
+print("Sua idade é {}".format(idade))
 
-# Exibir o meu nome (que está dentro da variável nome)
-print(nome)
-
-# Quando quiser exibir a frase "Minha idade é" completando com o conteúdo da variável idade
-#print( "Meu nome é "+nome)
-print("Minha idade é "+str(idade)+" anos")
-print(f"Minha idade é {idade} anos\n")
-print( "Minha idade é {} anos".format(idade))
-
-#Quando quiser exibir  "Meu nome é ... e tenho ... 
-#anos ..." trocando  pelas variáveis nome e idade
-print("Meu nome é {} e tenho {} anos".format(nome,idade))
-
-
-'''
-Comentario em bloco
-
-'''
+#e se eu quisesse mostrar o DOBRO da idade informada?
+dobro = idade * 2
+print("O dobro da idade informada é {}".format(dobro))
