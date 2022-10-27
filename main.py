@@ -1,16 +1,20 @@
-#Pede o nome do aluno e sua nota (de 0 a 10) e, se ele tirou nota 10, mostra "Você é bichão, mesmo..."
-nome = input("Informe seu nome: ")
-nota = float(input("Digite sua nota: "))
+#Exemplo de laço
 
-if (nota == 10):
-  print(f"{nome}, você é o bixão mesmo...")
-elif (nota >= 6 and nota < 10):
-  print(f"{nome}. bom trabalho")
-elif (nota > 10):
-  print(f"Digite um número entre 0 e 10")
-else: # é sempre automaticamente o que as duas condições não tratamento
-  print("Burro, não tirou dez...")
+#Se eu quisesse exibir números de 1 a 10?
+print("Aqui mostramos de maneira 'rústica'")
+print("1")
+print("2")
+print("3")
+print("4")
+print("5")
+print("6")
+print("7")
+print("8")
+print("9")
+print("10")
 
-
-
-  
+print("Aqui é do jeito certo...")
+numero = 1
+print(numero)
+numero = numero + 1
+print(numero)
