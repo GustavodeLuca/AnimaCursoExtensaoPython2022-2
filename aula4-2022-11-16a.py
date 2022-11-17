@@ -20,3 +20,5 @@ for pessoa in pessoas:
   print(pessoa)
 for pessoa in pessoas:
   print(f"Nome: {pessoa[1]} ({pessoa[3]})")
+
+
