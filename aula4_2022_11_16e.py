@@ -12,7 +12,7 @@ tipo_numerico = input( "Tecla 1 para Herói(na) ou 2 para Vilã(o): ")
 #Consulta para o valor máximo usado no banco
 sql = "SELECT MAX(pessoa_id)+1 FROM pessoas"
 cur.execute(sql)
-pessoa_id = cur.buscar()[0]
+pessoa_id = cur.fetchone()[0]
 
 if tipo_numerico == "1":
   tipo = "Herói(na)"
